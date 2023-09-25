@@ -19,7 +19,7 @@ const Statistics = () => {
     { name: 'Donated Amount', value: donatedAmount },
   ];
 
-  const COLORS = ['#FF5733', '#33FF57'];
+  const COLORS = ['#FF4349', '#00C49F'];
 
 
   
