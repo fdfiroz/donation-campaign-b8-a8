@@ -22,7 +22,7 @@ useEffect(() => {
       {noFound ?( 
       <p className="h-[80vh] flex justify-center items-center">{noFound}</p>
       ): (
-        <div className='grid grid-cols-2 gap-6 items-center justify-around'>
+        <div className='grid grid-cols-1 lg:grid-cols-2  gap-6 items-center justify-around'>
           {isShow ? donatedItems?.map(donation => <DonationCard key={donation.id} donation={donation}></DonationCard>) :
         donatedItems.slice(0,4)?.map(donation => <DonationCard key={donation.id} donation={donation}></DonationCard>)
           }

@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
-const Donation = ({donation}) => {
+const HomeDonationCard = ({donation}) => {
     
     const {id, title, picture, category, category_bg, text_button_bg, card_bg} = donation;
   return (
         <Link to={`/donations/${id}`}>
             <div
-        className=" max-w-[18rem] rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] " style={{backgroundColor:category_bg}}>
-        <div className="relative overflow-hidden bg-cover bg-no-repeat">
+        className="max-w-[18rem] rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] " style={{backgroundColor:category_bg}}>
+        <div className="w-full h-48 relative overflow-hidden bg-cover bg-no-repeat">
             <img
-            className="rounded-t-lg"
+            className="w-80 rounded-t-lg"
             src={picture}
             alt="" />
         </div>
@@ -27,4 +27,4 @@ const Donation = ({donation}) => {
   )
 }
 
-export default Donation
+export default HomeDonationCard

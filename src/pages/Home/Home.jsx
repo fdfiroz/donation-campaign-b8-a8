@@ -1,11 +1,11 @@
-import Donations from '../../Components/Donations/Donations'
+import HomeDonation from '../../Components/Donations/HomeDonation'
 import Banner from '../../Components/Header/Banner/Banner'
 
 const Home = () => {
   return (
     <>
     <Banner></Banner>
-    <Donations></Donations>
+    <HomeDonation></HomeDonation>
     </>
   )
 }

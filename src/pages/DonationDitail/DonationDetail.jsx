@@ -37,8 +37,8 @@ const DonationDetail = () => {
   }
     return (
     <div className="bg-white py-6 sm:py-8 lg:py-12 text-left">
-  <div className="mx-auto max-w-screen-md px-4 md:px-8">
-    <div className="relative mb-6 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:mb-8">
+  <div className="mx-auto max-w-screen-lg px-4 md:px-8">
+    <div className="relative w-full h-96 mb-6 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:mb-8">
       <img src={donation?.picture} loading="lazy" alt="" className="h-full w-full object-cover object-center" />
      
     <div className="z-10 absolute bottom-0 bg-neutral-950 opacity-60  w-full py-4">

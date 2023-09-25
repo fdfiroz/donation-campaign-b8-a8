@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import Donation from "./Donation"
+import HomeDonationCard from "./HomeDonationCard"
 
 
-const Donations = () => {
+const HomeDonation = () => {
     const [data, setData] = useState([])
     useEffect(() => {
         fetch('/data.json')
@@ -13,7 +13,7 @@ const Donations = () => {
     <>
     <div className="grid grid-cols-4 gap-6">
     {
-        data.map(donation => <Donation key={donation.id} donation={donation}></Donation>)
+        data.map(donation => <HomeDonationCard key={donation.id} donation={donation}></HomeDonationCard>)
     }
     </div>
    
@@ -22,4 +22,4 @@ const Donations = () => {
   )
 }
 
-export default Donations
+export default HomeDonation
