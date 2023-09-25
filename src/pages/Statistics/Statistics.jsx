@@ -12,11 +12,15 @@ const Statistics = () => {
   
   const totalDonation = data.reduce((total, donation) => total + donation.price, 0);
   const donatedAmount = donated.reduce((total, donation) => total + donation.price, 0);
-
-  
+  // present totalDonation and donatedAmount in pie chart
+  const remainTotal = totalDonation - donatedAmount
+  const remainPercent = (remainTotal / totalDonation) * 100
+  const donatedPercent = (donatedAmount / totalDonation) * 100
+  const remainPercentFixed = parseFloat(remainPercent.toFixed(2))
+  const donatedPercentFixed = parseFloat(donatedPercent.toFixed(2))
   const pieChartData = [
-    { name: 'Total Donation', value: totalDonation },
-    { name: 'Donated Amount', value: donatedAmount },
+    { name: 'Total Donation', value: remainPercentFixed },
+    { name: 'Donated Amount', value: donatedPercentFixed },
   ];
 
   const COLORS = ['#FF4349', '#00C49F'];

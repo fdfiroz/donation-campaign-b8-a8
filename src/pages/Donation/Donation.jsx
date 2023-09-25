@@ -20,7 +20,7 @@ useEffect(() => {
   return (
     <div className='container mx-auto '>
       {noFound ?( 
-      <p className="h-[80vh] flex justify-center items-center">{noFound}</p>
+      <p className="h-[80vh] flex justify-center items-center text-gray-800 text-4xl font-semibold sm:text-5xl">{noFound}</p>
       ): (
         <div className='grid grid-cols-1 lg:grid-cols-2  gap-6 items-center justify-around'>
           {isShow ? donatedItems?.map(donation => <DonationCard key={donation.id} donation={donation}></DonationCard>) :

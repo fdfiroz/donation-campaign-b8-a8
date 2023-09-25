@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 const DonationCard = ({ donation }) => {
   const { id, title, picture, category, category_bg, text_button_bg, card_bg, price } =
     donation;
-  console.log(picture);
   return (
     
       <div

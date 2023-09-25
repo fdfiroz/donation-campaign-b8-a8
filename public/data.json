@@ -1,135 +1,134 @@
 [
-    {
-      "id":1,
-      "picture": "/resources/Health.png",
-      "title": "Clean water for children",
-      "category": "Health",
-      "category_bg": "#0052FF33",
-      "card_bg": "#0052FF26",
-      "text_button_bg": "#0052FF",
-      "description": "Providing clean and safe drinking water to children in need.",
-      "price": 100
-    },
-    {
-      "id":2,
-      "picture": "/resources/Education.png",
-      "title": "Good education",
-      "category": "Education",
-      "category_bg": "#FF444A33",
-      "card_bg": "#FF444A26",
-      "text_button_bg": "#FF444A",
-      "description": "Supporting educational initiatives for underprivileged students.",
-      "price": 50
-    },
-    {
-      "id":3,
-      "picture": "/resources/Clothing.png",
-      "title": "Used Clothing Drive",
-      "category": "Clothing",
-      "category_bg": "#79C23F33",
-      "card_bg": "#79C23F26",
-      "text_button_bg": "#79C23F",
-      "description": "Collecting and distributing gently used clothing to those in need.",
-      "price": 20
-    },
-    {
-      "id":4,
-      "picture": "/resources/Food.png",
-      "title": "Better Food for Everyone",
-      "category": "Food",
-      "category_bg": "#F8714733",
-      "card_bg": "#F8714726",
-      "text_button_bg": "#F87147",
-      "description": "Promoting access to nutritious food for all communities.",
-      "price": 75
-    },
-    {
-      "id":5,
-      "picture": "/resources/Food.png",
-      "title": "Better Food for Everyone",
-      "category": "Food",
-      "category_bg": "#F8714733",
-      "card_bg": "#F8714726",
-      "text_button_bg": "#F87147",
-      "description": "Promoting access to nutritious food for all communities.",
-      "price": 75
-    },
-    {
-      "id":6,
-      "picture": "/resources/Clothing.png",
-      "title": "Used Clothing Drive",
-      "category": "Clothing",
-      "category_bg": "#79C23F33",
-      "card_bg": "#79C23F26",
-      "text_button_bg": "#79C23F",
-      "description": "Collecting and distributing gently used clothing to those in need.",
-      "price": 20
-    },
-    {
-      "id":7,
-      "picture": "/resources/Education.png",
-      "title": "Good education",
-      "category": "Education",
-      "category_bg": "#FF444A33",
-      "card_bg": "#FF444A26",
-      "text_button_bg": "#FF444A",
-      "description": "Supporting educational initiatives for underprivileged students.",
-      "price": 50
-    },
-    {
-      "id":8,
-      "picture": "/resources/Health.png",
-      "title": "Clean water for children",
-      "category": "Health",
-      "category_bg": "#0052FF33",
-      "card_bg": "#0052FF26",
-      "text_button_bg": "#0052FF",
-      "description": "Providing clean and safe drinking water to children in need.",
-      "price": 100
-    },
-    {
-      "id":9,
-      "picture": "/resources/Health.png",
-      "title": "Clean water for children",
-      "category": "Health",
-      "category_bg": "#0052FF33",
-      "card_bg": "#0052FF26",
-      "text_button_bg": "#0052FF",
-      "description": "Providing clean and safe drinking water to children in need.",
-      "price": 100
-    },
-    {
-      "id":10,
-      "picture": "/resources/Education.png",
-      "title": "Good education",
-      "category": "Education",
-      "category_bg": "#FF444A33",
-      "card_bg": "#FF444A26",
-      "text_button_bg": "#FF444A",
-      "description": "Supporting educational initiatives for underprivileged students.",
-      "price": 50
-    },
-    {
-      "id":11,
-      "picture": "/resources/Clothing.png",
-      "title": "Used Clothing Drive",
-      "category": "Clothing",
-      "category_bg": "#79C23F33",
-      "card_bg": "#79C23F26",
-      "text_button_bg": "#79C23F",
-      "description": "Collecting and distributing gently used clothing to those in need.",
-      "price": 20
-    },
-    {
-      "id":12,
-      "picture": "/resources/Food.png",
-      "title": "Better Food for Everyone",
-      "category": "Food",
-      "category_bg": "#F8714733",
-      "card_bg": "#F8714726",
-      "text_button_bg": "#F87147",
-      "description": "Promoting access to nutritious food for all communities.",
-      "price": 75
-    }
-  ]
-  
+  {
+    "id": 1,
+    "picture": "/resources/Health.png",
+    "title": "Providing Clean Water for Children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Access to clean and safe drinking water is a fundamental human right. Our mission is to provide clean and safe drinking water to children in need. Through our initiatives, we aim to improve the health and well-being of vulnerable communities by ensuring access to clean water sources.",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "picture": "/resources/Education.png",
+    "title": "Supporting Quality Education",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Quality education is the foundation for a brighter future. We are dedicated to supporting educational initiatives for underprivileged students. Our programs aim to provide resources, scholarships, and mentorship to ensure that every child has the opportunity to access a quality education.",
+    "price": 150
+  },
+  {
+    "id": 3,
+    "picture": "/resources/Clothing.png",
+    "title": "Used Clothing Drive Local Charities",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "Warmth and dignity go hand in hand. We are committed to collecting and distributing gently used clothing to those in need. By organizing clothing drives and partnering with local communities, we aim to ensure that everyone has access to clean and comfortable clothing.",
+    "price": 205
+  },
+  {
+    "id": 4,
+    "picture": "/resources/Food.png",
+    "title": "Promoting Nutritious Food Access",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#F87147",
+    "description": "Access to nutritious food is essential for a healthy life. We work towards promoting access to nutritious food for all communities. Through food banks, nutrition programs, and community outreach, we strive to eliminate food insecurity and improve the well-being of individuals and families.",
+    "price": 275
+  },
+  {
+    "id": 5,
+    "picture": "/resources/Food.png",
+    "title": "Promoting Nutritious Food Access",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#F87147",
+    "description": "Access to nutritious food is essential for a healthy life. We work towards promoting access to nutritious food for all communities. Through food banks, nutrition programs, and community outreach, we strive to eliminate food insecurity and improve the well-being of individuals and families.",
+    "price": 275
+  },
+  {
+    "id": 6,
+    "picture": "/resources/Clothing.png",
+    "title": "Used Clothing Drive Local Charities",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "Warmth and dignity go hand in hand. We are committed to collecting and distributing gently used clothing to those in need. By organizing clothing drives and partnering with local communities, we aim to ensure that everyone has access to clean and comfortable clothing.",
+    "price": 205
+  },
+  {
+    "id": 7,
+    "picture": "/resources/Education.png",
+    "title": "Supporting Quality Education",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Quality education is the foundation for a brighter future. We are dedicated to supporting educational initiatives for underprivileged students. Our programs aim to provide resources, scholarships, and mentorship to ensure that every child has the opportunity to access a quality education.",
+    "price": 150
+  },
+  {
+    "id": 8,
+    "picture": "/resources/Health.png",
+    "title": "Providing Clean Water for Children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Access to clean and safe drinking water is a fundamental human right. Our mission is to provide clean and safe drinking water to children in need. Through our initiatives, we aim to improve the health and well-being of vulnerable communities by ensuring access to clean water sources.",
+    "price": 100
+  },
+  {
+    "id": 9,
+    "picture": "/resources/Health.png",
+    "title": "Providing Clean Water for Children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Access to clean and safe drinking water is a fundamental human right. Our mission is to provide clean and safe drinking water to children in need. Through our initiatives, we aim to improve the health and well-being of vulnerable communities by ensuring access to clean water sources.",
+    "price": 100
+  },
+  {
+    "id": 10,
+    "picture": "/resources/Education.png",
+    "title": "Supporting Quality Education",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Quality education is the foundation for a brighter future. We are dedicated to supporting educational initiatives for underprivileged students. Our programs aim to provide resources, scholarships, and mentorship to ensure that every child has the opportunity to access a quality education.",
+    "price": 150
+  },
+  {
+    "id": 11,
+    "picture": "/resources/Clothing.png",
+    "title": "Used Clothing Drive Local Charities",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "Warmth and dignity go hand in hand. We are committed to collecting and distributing gently used clothing to those in need. By organizing clothing drives and partnering with local communities, we aim to ensure that everyone has access to clean and comfortable clothing.",
+    "price": 205
+  },
+  {
+    "id": 12,
+    "picture": "/resources/Food.png",
+    "title": "Promoting Nutritious Food Access",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#F87147",
+    "description": "Access to nutritious food is essential for a healthy life. We work towards promoting access to nutritious food for all communities. Through food banks, nutrition programs, and community outreach, we strive to eliminate food insecurity and improve the well-being of individuals and families.",
+    "price": 275
+  }
+]

@@ -18,8 +18,6 @@ const Favorites = () => {
 
       const total = favoriteItems.reduce((preValue,currentItem)=> preValue + currentItem.price,0)
 
-      console.log(total);
-
       setTotalPrice(total)
 
 
@@ -28,16 +26,11 @@ const Favorites = () => {
     }
   }, []);
 
-  console.log(favorites);
-
   const handleRemove = () => {
     localStorage.clear();
     setFavorites([]);
     setNofound("No Data Found");
   };
-
-
-  console.log(isShow);
 
   return (
     <div>
