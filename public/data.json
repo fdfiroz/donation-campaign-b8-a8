@@ -1,0 +1,135 @@
+[
+    {
+      "id":1,
+      "picture": "/resources/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Providing clean and safe drinking water to children in need.",
+      "price": 100
+    },
+    {
+      "id":2,
+      "picture": "/resources/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#FF444A33",
+      "card_bg": "#FF444A26",
+      "text_button_bg": "#FF444A",
+      "description": "Supporting educational initiatives for underprivileged students.",
+      "price": 50
+    },
+    {
+      "id":3,
+      "picture": "/resources/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F33",
+      "card_bg": "#79C23F26",
+      "text_button_bg": "#79C23F",
+      "description": "Collecting and distributing gently used clothing to those in need.",
+      "price": 20
+    },
+    {
+      "id":4,
+      "picture": "/resources/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_button_bg": "#F87147",
+      "description": "Promoting access to nutritious food for all communities.",
+      "price": 75
+    },
+    {
+      "id":5,
+      "picture": "/resources/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_button_bg": "#F87147",
+      "description": "Promoting access to nutritious food for all communities.",
+      "price": 75
+    },
+    {
+      "id":6,
+      "picture": "/resources/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F33",
+      "card_bg": "#79C23F26",
+      "text_button_bg": "#79C23F",
+      "description": "Collecting and distributing gently used clothing to those in need.",
+      "price": 20
+    },
+    {
+      "id":7,
+      "picture": "/resources/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#FF444A33",
+      "card_bg": "#FF444A26",
+      "text_button_bg": "#FF444A",
+      "description": "Supporting educational initiatives for underprivileged students.",
+      "price": 50
+    },
+    {
+      "id":8,
+      "picture": "/resources/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Providing clean and safe drinking water to children in need.",
+      "price": 100
+    },
+    {
+      "id":9,
+      "picture": "/resources/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Providing clean and safe drinking water to children in need.",
+      "price": 100
+    },
+    {
+      "id":10,
+      "picture": "/resources/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#FF444A33",
+      "card_bg": "#FF444A26",
+      "text_button_bg": "#FF444A",
+      "description": "Supporting educational initiatives for underprivileged students.",
+      "price": 50
+    },
+    {
+      "id":11,
+      "picture": "/resources/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F33",
+      "card_bg": "#79C23F26",
+      "text_button_bg": "#79C23F",
+      "description": "Collecting and distributing gently used clothing to those in need.",
+      "price": 20
+    },
+    {
+      "id":12,
+      "picture": "/resources/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_button_bg": "#F87147",
+      "description": "Promoting access to nutritious food for all communities.",
+      "price": 75
+    }
+  ]
+  

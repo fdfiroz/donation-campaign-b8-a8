@@ -1,8 +1,12 @@
-
+import Donations from '../../Components/Donations/Donations'
+import Banner from '../../Components/Header/Banner/Banner'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <Banner></Banner>
+    <Donations></Donations>
+    </>
   )
 }
 
