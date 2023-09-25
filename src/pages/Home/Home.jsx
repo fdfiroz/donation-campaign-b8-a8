@@ -13,7 +13,7 @@ const Home = () => {
 
       const handelSearch = (e) => {
         e.preventDefault()
-        const filterData = data.filter((item) => item.category.toLowerCase().includes(searchQuery.toLowerCase())
+        const filterData = data.filter((item) => item.category.toLowerCase().includes(searchQuery.toLowerCase().trim())
       );
       setFilteredData(filterData)
       e.target.form[0].value = ""
