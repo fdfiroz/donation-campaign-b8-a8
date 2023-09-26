@@ -7,7 +7,9 @@ const Statistics = () => {
   const data = useLoaderData()
   useEffect(() => {
     const donatedItem = JSON.parse(localStorage.getItem("donated"));
-    setDonated(donatedItem);
+    if(donatedItem){
+      setDonated(donatedItem);
+    }
   }, []);
   
   const totalDonation = data.reduce((total, donation) => total + donation.price, 0);
@@ -47,7 +49,11 @@ const Statistics = () => {
       ))}
     </Pie>
     <Tooltip />
-    <Legend />
+    <Legend
+    iconType='plainline'
+    iconSize={40}
+    
+    ></Legend>
   </PieChart>
       </ResponsiveContainer>
   

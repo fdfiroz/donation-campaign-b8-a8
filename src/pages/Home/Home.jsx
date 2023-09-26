@@ -1,15 +1,12 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Banner from '../../Components/Header/Banner/Banner'
 import HomeDonationCard from "../../Components/Donations/HomeDonationCard"
+import { useLoaderData } from "react-router-dom"
 const Home = () => {
-  const [data, setData] = useState([])
+  const data = useLoaderData()
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredData, setFilteredData] = useState([])
-  useEffect(() => {
-      fetch('/data.json')
-      .then(res => res.json())
-      .then(data => setData(data))
-      }, [])
+
 
       const handelSearch = (e) => {
         e.preventDefault()
